@@ -21,5 +21,5 @@
 1929|🟩Easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array)|[C](https://github.com/CalvinWan0101/LeetCode/tree/main/Solution/1929-Concatenation-of-Array/1929.c)
 2011|🟩Easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)|[C](https://github.com/CalvinWan0101/LeetCode/tree/main/Solution/2011-Final-Value-of-Variable-After-Performing-Operations/2011.c)
 2114|🟩Easy|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences)|[C](https://github.com/CalvinWan0101/LeetCode/tree/main/Solution/2114-Maximum-Number-of-Words-Found-in-Sentences/2114.c)
-2160|🟩Easy|[Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits)|[C]()
+2160|🟩Easy|[Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits)|[C](https://github.com/CalvinWan0101/LeetCode/blob/main/Solution/2160-Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits/2160.c)
 <!-- |🟥Hard| -->
