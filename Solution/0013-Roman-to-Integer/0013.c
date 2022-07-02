@@ -1,11 +1,9 @@
 int romanToInt(char *s)
 {
-    char rom[13][2] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-    int romnum[13] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
     int sum = 0;
     for (int i = 0; i < strlen(s); i++)
     {
-        // I開頭,包含 "I" "IV" "IX"
+        // Start with "I", like "I" "IV" "IX"
         if (s[i] == 'I')
         {
             // IV
@@ -24,7 +22,7 @@ int romanToInt(char *s)
             else
                 sum += 1;
         }
-        // X開頭,包含 "X" "XL" "XC"
+        // Start with "x", like "X" "XL" "XC"
         else if (s[i] == 'X')
         {
             // XL
@@ -43,7 +41,7 @@ int romanToInt(char *s)
             else
                 sum += 10;
         }
-        // C開頭,包含 "C" "CD" "CM"
+        // Start with "C", like "C" "CD" "CM"
         else if (s[i] == 'C')
         {
             // CD
@@ -62,16 +60,16 @@ int romanToInt(char *s)
             else
                 sum += 100;
         }
-        // 單獨V
+        // V
         else if (s[i] == 'V')
             sum += 5;
-        // 單獨L
+        // L
         else if (s[i] == 'L')
             sum += 50;
-        // 單獨D
+        // D
         else if (s[i] == 'D')
             sum += 500;
-        // 單獨M
+        // M
         else if (s[i] == 'M')
             sum += 1000;
     }
